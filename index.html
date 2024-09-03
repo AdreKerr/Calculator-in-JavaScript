@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Calculator-in-JavaScript/style.css">
+    <link rel="stylesheet" href="../BootStrap Code/bootstrap.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="big">
+
+        <div class="container">
+            <div class="row">
+                <!-- space -->
+                <div class="col-12" id="space"></div>
+
+
+                <!-- space -->
+                <div class="col-12" id="space"></div>
+                
+                <!-- row space -->
+                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-xs-12"></div>
+                
+                <!-- calclator spot -->
+                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-xs-12 calculatior" id="calculatior">
+                    <!-- calculatior -->
+
+                    <!-- space -->
+                    <div class="space1"></div>
+
+                    <div class="container">
+                        <!-- Text of awnser -->
+                        <input class="col-12" style="background-color:gainsboro; color: black;" disabled id="result">
+                    </div>
+
+                    <!-- space -->
+                    <div class="space"></div>
+
+                    <!-- first row -->
+                    <div class="first col-12 row">
+                        <input class="col-3" id="clear" style="background-color: orange;" type="button" value="AC">
+                        <input class="col-3" id="posNeg" style="background-color: rgb(165, 165, 165);" type="button" value="+/-" onclick="display('-')">
+                        <input class="col-3" id="percent" style="background-color: rgb(165, 165, 165);" type="button" value="%" onclick="display('%')">
+                        <input class="col-3" id="divide" style="background-color: cadetblue;" type="button" value="/" onclick="display('/')">
+                    </div><!-- end first -->
+
+                    <!-- space -->
+                    <div class="space"></div>
+
+                    <!-- second row -->
+                    <div class="second col-12 row">
+                        <input class="col-3" id="seven" type="button" value="7" onclick="display('7')">
+                        <input class="col-3" id="eight" type="button" value="8" onclick="display('8')">
+                        <input class="col-3" id="nine" type="button" value="9" onclick="display('9')">
+                        <input class="col-3" id="multipy" style="background-color: cadetblue;" type="button" value="*" onclick="display('*')">
+                    </div><!-- end second -->
+
+                    <!-- space -->
+                    <div class="space"></div>
+
+                    <!-- third row -->
+                    <div class="third col-12 row">
+                        <input class="col-3" id="four" type="button" value="4" onclick="display('4')">
+                        <input class="col-3" id="five" type="button" value="5" onclick="display('5')">
+                        <input class="col-3" id="six" type="button" value="6" onclick="display('6')">
+                        <input class="col-3" id="minus" style="background-color: cadetblue;" type="button" value="-" onclick="display('-')">
+                    </div><!-- end thrid -->
+
+                    <!-- space -->
+                    <div class="space"></div>
+
+                    <!-- forth row -->
+                    <div class="forth col-12 row">
+                        <input class="col-3" id="one" type="button" value="1" onclick="display('1')">
+                        <input class="col-3" id="two" type="button" value="2" onclick="display('2')">
+                        <input class="col-3" id="three" type="button" value="3" onclick="display('3')">
+                        <input class="col-3" id="plus" style="background-color: cadetblue;" type="button" value="+" onclick="display('+')">
+                    </div><!-- end forth -->
+
+                    <!-- space -->
+                    <div class="space"></div>
+
+                    <!-- fith row -->
+                    <div class="fith col-12 row">
+                        <input class="col-6" id="zero" type="button" value="0" onclick="display('0')">
+                        <input class="col-3" id="decimal" style="background-color: rgb(165, 165, 165);" type="button" value="." onclick="display('.')">
+                        <input class="col-3" id="equal" style="background-color: cadetblue;" type="button" value="=">
+                    </div><!-- end fith -->
+                    <div class="space1"></div>
+                </div>
+
+                <!-- row space -->
+                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-xs-12"></div>
+                
+                <!-- space -->
+                <div class="col-12" id="space"></div>
+                
+            </div><!-- end row -->
+        </div><!-- end container -->
+        
+    </div><!-- end big -->
+        
+        
+</body><!-- End body -->
+<script type="text/javascript" src="../Calculator-in-JavaScript/js/app.js"></script>
+</html><!-- End HTML -->
