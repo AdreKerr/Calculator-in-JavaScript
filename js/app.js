@@ -25,3 +25,18 @@ function solve() {
 function clear() {
     document.getElementById("result").value = "";
 }//end funciton clear
+
+
+
+
+
+
+
+//solve
+//array?
+/*
+let equasion = [,,];
+num 1 = equasion[0];
+num 2 = equasion[1];
+num 3 = equasion[2];
+*/
